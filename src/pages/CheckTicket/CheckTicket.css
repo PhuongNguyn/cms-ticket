@@ -1,0 +1,202 @@
+.check-ticket{
+    display: flex;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 88vh;
+    margin-top: 20px;
+}
+.check-ticket .ticket-check-outlet__table{
+    background-color: white;
+    flex:7;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.check-ticket .ticket-check-outlet__filter{
+    flex: 3;
+    background-color: white;
+    height: 100%;
+    margin-left: 10px;
+    border-radius: 24px;
+}
+
+.ticket-check-outlet__filter--title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    text-align: start;
+    margin-left: 22px;
+    margin-top: 12px;
+}
+
+.main-content__outlet-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.main-content__outlet-header-btn-export button{
+    border: 1px solid #FF993C;
+    color: #FF993C;
+    font-weight: 500;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.main-content__outlet-header-search input{
+    width: 320px;
+    background: #F7F7F8;
+    border-radius: 8px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-style: italic;
+    height: 33px;
+    box-sizing: border-box;
+}
+
+.main-content__outlet-header-btn-check button{
+    color: white;
+    font-weight: 500;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 10px;
+    background-color: #FF993C;
+    border: none;
+    height: 33px;
+    box-sizing: border-box;
+}
+
+.ticket-check-outlet__table-content{
+    margin-top: 20px;
+}
+
+.ticket-check-outlet__table-content thead tr td{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #1E0D03;
+    text-align: start;
+    padding-left: 5px;
+}
+
+.ticket-check-outlet__table-content thead tr{
+    height: 48px;
+    background-color: #F1F4F8;
+}
+
+.ticket-check-outlet__table-content tbody tr{
+    height: 48px;
+}
+
+.ticket-check-outlet__table-content tbody tr:nth-child(even){
+    background-color:#F1F4F8 ;
+}
+
+.ticket-check-outlet__table-content tbody tr td:last-child{
+    color: #A5A8B1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    font-style: italic;
+}
+
+.ticket-check-outlet__table-content{
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-check-outlet__table-content tbody tr td{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1E0D03;
+    text-align: start;
+    padding-left: 5px;
+}
+
+.ticket-checkt-outlet__filter-option-status{
+    display: flex;
+}
+
+.ticket-check-outlet__filter-option{
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.filter-option-status-input__all, .filter-option-status-input__check, .filter-option-status-input__notcheck{
+    display: flex;
+    justify-content: start;
+    margin-top: 6px;
+}
+
+.ticket-checkt-outlet__filter-option-status-input{
+    margin-left: 10px;
+}
+
+.ticket-checkt-outlet__filter-option-status-input label{
+    margin-left: 4px;
+}
+
+.ticket-checkt-outlet__filter-option-status--title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E0D03;
+}
+
+.ticket-check-outlet__ticket-type,.ticket-check-outlet__date-to,.ticket-check-outlet__date-from{
+    margin-top: 27px;
+}
+
+.ticket-check-outlet__ticket-type p, .ticket-check-outlet__date-to--title, .ticket-check-outlet__date-from--title{
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E0D03;
+}
+
+.ticket-check-outlet__ticket-type span{
+    margin-left: 108px;
+    font-weight: 400;
+}
+
+.ticket-check-outlet__date-from, .ticket-check-outlet__date-to{
+    display: flex;
+}
+
+.ticket-check-outlet__date-from-calendar p, .ticket-check-outlet__date-to-calendar p{
+     margin-bottom: 0;
+}
+
+.ticket-check-outlet__date-to-calendar, .ticket-check-outlet__date-from-calendar{
+    width: 130px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E6E0E0;
+    border-radius: 4px;
+    gap: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-check-outlet__date-from-calendar{
+    margin-left: 80px;
+}
+
+.ticket-check-outlet__date-to-calendar{
+    margin-left: 68px;
+}
+
+.ticket-check-outlet__date-from, .ticket-check-outlet__date-to{
+    position: relative;
+}

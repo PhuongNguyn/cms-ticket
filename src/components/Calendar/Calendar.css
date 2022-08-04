@@ -1,0 +1,94 @@
+.cms-calendar{
+    width: 280px;
+    height: 336px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(70, 64, 67, 0.1);
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    right:-1%;
+    top:110%;
+}
+
+.react-calendar {
+    border: none!important;
+    width: 280px!important;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.react-calendar__navigation{
+    border-bottom:1px solid #DCDDFD;
+    height: 70px!important;
+}
+
+.react-calendar__navigation__label__labelText--from{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FF7506;
+}
+
+.react-calendar__navigation__prev2-button, .react-calendar__navigation__next2-button{
+    display: none;
+}
+
+.react-calendar__navigation__prev-button, .react-calendar__navigation__next-button{
+    color: #FF7506;
+    font-size: 25px;
+}
+
+.react-calendar__navigation__prev-button:hover, .react-calendar__navigation__next-button:hover{
+    background-color: white!important;
+}
+
+.react-calendar__navigation__arrow:hover{
+    background-color: white!important;
+}
+
+.react-calendar__navigation__label:hover{
+    background-color: white!important;
+}
+
+.react-calendar__month-view__weekdays__weekday{
+    color: #FF7506;
+  
+}
+
+.react-calendar__month-view__weekdays__weekday abbr{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.react-calendar__tile{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #535261!important;
+
+}
+
+.react-calendar__tile--now{
+    background-color: #FF7506!important;
+    color: white!important;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.react-calendar__month-view__days__day{
+    width: 36px!important;
+    height: 36px!important;
+}
+
+.react-calendar__month-view__days__day:hover{
+    background-color: white!important;
+}

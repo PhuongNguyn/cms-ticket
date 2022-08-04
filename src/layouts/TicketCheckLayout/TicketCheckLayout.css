@@ -1,0 +1,19 @@
+.ticket-check-layout{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.ticket-chect-layout__main-content{
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 100%;
+    padding: 17px 25px 17px 5px;
+}
+
+.main-content__ticket-check-outlet{
+    width: 100%;
+    border-radius: 24px;
+    background-color: white;
+    box-sizing: border-box;
+}

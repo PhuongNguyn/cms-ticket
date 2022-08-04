@@ -1,0 +1,118 @@
+.service__header{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+
+.service__header-search-bar input{
+    padding: 10px 16px;
+    gap: 16px;
+    font-size: 14px;
+    width: 320px;
+    background: #F7F7F8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-weight: 400;
+    color: #1E0D03;
+    border: none;
+    outline: none;
+
+}
+
+.service__header-search-bar{
+    position:relative;
+}
+
+.service__header-option{
+   display: flex;
+}
+
+.service__header-search-bar--icon{
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+
+.service__header-option-export{
+    border: 1px solid #FF993C;
+    color: #FF993C;
+    font-weight: 500;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding-top: 9px;
+}
+
+.service__header-option-add-service{
+    background-color: #FF993C;
+    color: white;
+    font-weight: 500;
+    padding: 7px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding-top: 9px;
+}
+
+.service__table{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.service__table table thead tr{
+    background-color: #F1F4F8;
+}
+
+.service__table table thead tr td{
+    color: #1E0D03;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    padding-left: 7px;
+}
+
+.service__table table tr{
+    height: 48px;
+}
+
+.service__table table tbody tr:nth-child(even){
+    background-color: #F1F4F8;
+}
+
+.service__table table tbody tr td{
+    text-align: start;
+    padding-left: 7px;  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E0D03;
+}
+
+.service-table--service-status-close{
+    color: red;
+    border: 1px solid red;
+    background-color: #F8EBE8;
+    padding: 6px 6px;
+    border-radius: 4px;
+    font-size: 12px
+}
+
+.service-table--service-status-open{
+    color: #03AC00;
+    border: 1px solid #03AC00;
+    background-color: #DEF7E0;
+    padding: 6px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.service-table--edit-service{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FF993C;
+    cursor: pointer;
+}

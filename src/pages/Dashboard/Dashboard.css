@@ -1,0 +1,144 @@
+.dashboard__chart-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.dashboard__chart-header--title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E0D03;
+}
+
+.dashboard__chart-header-calendar{
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border: 1px solid #E6E0E0;
+    border-radius: 4px;
+}
+
+.dashboard__chart-header-calendar p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1E0D03;
+    margin-bottom: 0;
+
+}
+
+.dashboard__chart{
+    height: 200px;
+}
+
+
+
+.dashboard__chart tspan{
+    font-size: 14px;
+}
+
+.dashboard__content-header--title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1E0D03;
+}
+
+.dashboard__content-header{
+    text-align: start;
+}
+
+.dashboard__content-header--value{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1E0D03;
+    margin-bottom: 0px;
+}
+
+.dashboard__content-header--value span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1E0D03;
+}
+
+.dashboard__content-chart--chart-1{
+    width: 100px;
+}
+
+.dashboard__content-chart--family p, .dashboard__content-chart--event p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1E0D03;
+}
+
+.dashboard__content-chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+.dashboard__content-chart--event, .dashboard__content-chart--family{
+    width: 300px;
+    margin-left: 120px;
+}
+
+.dashboard__content-chart-legend{
+    width: 300px;
+    margin-left: 80px;
+}
+
+
+.dashboard__content-chart--event-chart, .dashboard__content-chart--family-chart{
+    width: 200px;
+}
+
+.dashboard__content-chart--calendar .dashboard__chart-header-calendar{
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E6E0E0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    gap: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.dashboard__content-chart-legend--used-ticket{
+    width: 44px;
+    height: 20px;
+    background: #4F75FF;
+    border-radius: 4px;
+}
+
+.dashboard__content-chart-legend--unused-ticket{
+    width: 44px;
+    height: 20px;
+    background: #FF8A48;
+    border-radius: 4px;
+}
+
+.dashboard__content-chart-legend--unused-ticket-wrapper, .dashboard__content-chart-legend--used-ticket-wrapper{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dashboard__content-chart-legend--unused-ticket-wrapper span, .dashboard__content-chart-legend--used-ticket-wrapper span{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1E0D03;
+}
+
+.dashboard__chart-header-calendar{
+    position: relative;
+}

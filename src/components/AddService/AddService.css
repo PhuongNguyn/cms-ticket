@@ -1,0 +1,181 @@
+.service-form{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-form__wrapper{
+    background-color: white;
+    width: 630px;
+    height: 630px;
+    border-radius: 8px;
+    padding-left: 22px;
+}
+
+.service-form--title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #1E0D03;
+    margin-top: 14px;
+}
+
+.service-form__input{
+    margin-top: 20px;
+}
+
+.service-form__input-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.service-form__input-status--title,.service-form__input-name--title, .service-form__input-date-use--title, .service-form__input-price--title{
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1E0D03;
+}
+
+.service-form__input-name input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #A5A8B1;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    outline: none;
+}
+
+.service-form__input-date{
+    margin-top: 20px;
+}
+
+.service-form__input-date-use{
+    margin-top: 5px;
+}
+
+.service-form__input-date-use-date{
+    position: relative;
+}
+
+.service-form__input-date-use-date-and-time, .service-form__input-date-expire-date-and-time{
+    display: flex;
+}
+
+.service-form__input-date-use-date p, .service-form__input-date-expire-date p{
+    margin-bottom: 0;
+}
+
+.ant-picker{
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+}
+
+.service-form__input-date-use-time{
+    margin-left: 10px;
+}
+
+.service-form__input-date{
+    display: flex;
+    flex-direction: row;
+}
+
+.service-form__input-date-expire{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.service-form__input-price, .service-form__input-status{
+    margin-top: 20px;
+}
+
+.service-form__input-price-option-price{
+    text-align: start
+}
+
+.service-form__input-price-option-price .check-box-input{
+    width: 18px;
+    height: 18px;
+    vertical-align: -3px;
+}
+
+.service-form__input-price-option-price span{
+    font-weight: 500;
+    font-size: 16px;
+    color: #1E0D03;
+    margin-left: 6px;
+}
+
+.service-form__input-price-option-price input[type=text]{
+    padding: 6px 10px;
+    width: 120px;
+    background: #F1F4F8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-left: 6px;
+    border: none;
+    outline: none;
+}
+
+.service-form__input-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.service-form__input-status select{
+    width: 160px;
+    height: 30px;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E0D03;
+    border: 1px solid #A5A8B1;
+    border-radius: 8px;
+    padding: 0px 4px;
+}
+
+.service-form--note{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1E0D03;
+    opacity: 0.4;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.service-form__button-button-close{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #FF993C;
+    color: #FF993C;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.service-form__button-button-save{
+    width: 140px;
+    height: 40px;
+    background-color: #FF993C;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
